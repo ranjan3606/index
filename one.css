@@ -1,0 +1,140 @@
+.logo {
+	height: 2em;
+	float: left;
+	margin-bottom: -4em;
+	margin-top: 1em;
+	margin-left: 3em;
+}
+
+#navigation {
+	background-color: #fff;
+}
+
+div li {
+	margin-right: 5em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Raleway", "Roboto Slab", times, serif;
+}
+/* Everything under here until the next comment is for the home page of the website */
+#section-1 {
+	background-image: url("img/pokemon1.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 68.6em;
+	color: #fff;
+	font-family: "Raleway", "Roboto Slab", times, serif;
+}
+
+#section-1 hr {
+	//margin-left: 30em;
+	//margin-right: 30em;
+	width: 40%;
+}
+
+.section-1-headings {
+	text-shadow: 2px 2px #000000;
+}
+
+h1.section-1-headings {
+	font-size: 5em;
+}
+
+h2.section-1-headings {
+	font-size: 2.5em;
+}
+
+#social-media {
+	margin-top: 2em;
+	margin-bottom: 5em;
+}
+
+#myName {
+	padding-top: 80px;
+}
+
+/* Everything under here until the next comment is for the about me part of the website */
+#section-2 {
+	background-color: #fff;
+	height: 68.8em;
+	font-family: "Raleway", "Roboto Slab", times, serif;
+	border-bottom: 1px solid black;
+}
+
+#about-me-picture {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+	height: em;
+	//margin-left: -1.1em;
+}
+
+p.about-me {
+	width: 80%;
+	margin-left: 3em;
+	font-size: 1.3em;
+	line-height: 200%;
+}
+
+h1.section-2-headings {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+p.btn {
+	padding: .5em 1.2em;
+	font-size: 2em;
+}
+
+/* Section 3 of website */
+.portfolio-images {
+  height: 250px;
+  margin-bottom: 3em;
+}
+
+#section-3 {
+	font-family: "Raleway", "Roboto Slab", times, serif;
+	border-top: 1px solid black;
+	height:70em;
+	background-color: #fff;
+}
+
+#portfolio-title {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+
+.parallax-1 {
+    /* The image used */
+    //background-image: url("img/1GF2m6o-tekken-wallpapers.jpg");
+   	background-color: #fff;
+    /* Set a specific height */
+    //min-height: 500px; 
+    height: 1200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("img/1.png");
+    /* Set a specific height */
+    //min-height: 500px; 
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
